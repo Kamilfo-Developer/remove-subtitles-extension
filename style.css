@@ -1,0 +1,27 @@
+* {
+    transition: all .5s ease-in-out;
+}
+
+.popup {
+    width: 300px !important;
+    height: 300px !important;
+    align-self: center;
+    background: #1E1E29; 
+    flex-direction: column;
+}
+
+.remove-message {
+    margin-top: 10px;
+}
+
+.remove-message__warning {
+    color: yellow;
+}
+
+.remove-message__success {
+    color: green;
+}
+
+.remove-message__error {
+    color: red;
+}

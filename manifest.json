@@ -1,0 +1,12 @@
+{
+    "name": "Remove Kinopoisk subtitles tool",
+    "version": "1.0.0",
+    "description": "Removes player subtitles",
+    "manifest_version": 3,
+    "author": "Kamilfo-Developer",
+    "action":{
+        "default_popup": "index.html",
+        "default_title": "Kinopoisk Remove Subtitles Extension"
+    },  
+    "permissions": ["declarativeContent", "activeTab", "scripting"]
+}
